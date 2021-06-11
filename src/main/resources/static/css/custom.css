@@ -1,0 +1,129 @@
+.main_headline{
+	background-color: #ffffaa;
+	border: 2px solid #b9b900;
+	color: #b9b900;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.btn-outline {
+	color: #4fbfa8;
+  	background-color: #10111f;
+  	border-color: #4fbfa8;
+  	font-weight: bold;
+  	letter-spacing: 0.05em;
+  	border-radius: 5px;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  	background: #ff0000;
+  	color: #000;
+  	border-color: #4fbfa8; 
+}
+
+.font-bold{
+	font-weight: bold;
+}
+
+.font-300{
+	font-weight: 300;
+}
+
+.info-message {
+	background-color: #80ffff;
+	border: 2px solid #008484;
+	color: #008484;
+	font-weight: bold;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.font-size-50{
+	font-size: 50px;
+}
+
+.font-size-60{
+	font-size: 60px;
+}
+
+.font-size-80{
+	font-size: 80px;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.margin-top-30{
+	margin-top: 30px;
+}
+
+.color-orange{
+	color: orange;
+}
+
+.color-red{
+	color: red;
+}
+
+.color-lime{
+	color: lime;
+}
+
+.font-family-Trebuchet-MS{
+	font-family: Trebuchet MS;
+}
+
+.bootstrap-select{
+	border: 2px solid red;
+	border-radius: 5px;
+}
+
+.error{
+	color: red;
+	font-size: 20px; 
+	margin-left: -90px;
+}
+
+.center{
+	text-align: center;
+}
+
+.bg{
+	background-color: #ffff84;
+}
+
+.marquee{
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #ff0000;
+	font-size: 20px; 
+	font-weight: 500;
+	position: absolute;
+	bottom: 0;
+}
+
+.marquee span{
+	display: inline-block;
+	padding-left: 100%;
+	-webkit-animation: scroll 30s infinite linear;
+}
+
+.marquee span:hover{
+	-webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes scroll{
+	0% {
+		-webkit-transform: translate(0,0);
+	}
+	
+	100% {
+		-webkit-transform: translate(-100%,0);
+	}
+}
